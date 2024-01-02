@@ -8,6 +8,8 @@ on:
 permissions:
   deployments: write
   actions: write
+  pages: write
+  contents: write
 
 jobs:
   build:
