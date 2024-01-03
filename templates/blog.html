@@ -15,7 +15,7 @@
     {% for page in pages | reverse %}
     <li>
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-        <h6>({{page.date}})</h6>
+        <span class="list-date">({{page.date}})</span>
     </li>
     {% endfor %}
 </ul>
