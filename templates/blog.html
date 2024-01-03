@@ -12,10 +12,10 @@
 {% endif %}
 
 <ul class="titleList">
-    {% for page in pages | reverse %}
+    {% for page in pages %}
     <li>
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-        <span class="list-date">({{page.date}})</span>
+        <span class="list-date">({{page.date|date}})</span>
     </li>
     {% endfor %}
 </ul>
