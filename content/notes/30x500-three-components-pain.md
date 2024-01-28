@@ -1,6 +1,6 @@
 +++
 title = "Lessons from 30x500: 9.The Three Components of Pain"
-date = 2024-01-28T05:10:00
+date = 2024-01-28T03:10:00
 +++
 
 The pain your audience face are made of 3 components:
